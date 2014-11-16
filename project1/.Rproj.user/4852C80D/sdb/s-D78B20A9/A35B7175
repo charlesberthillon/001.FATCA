@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1415601408792.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A35B7175",
+    "lastKnownWriteTime" : 542395936,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "f24",
+        "contentUrl" : "content?title=f24&file=8e17a0ee7330443ca8befaed252a748c.htm",
+        "displayedObservations" : 880,
+        "displayedVariables" : 3,
+        "totalObservations" : 880,
+        "variables" : 3
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

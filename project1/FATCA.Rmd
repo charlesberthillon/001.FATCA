@@ -1,0 +1,45 @@
+---
+title: "FATCA"
+author: "Charles"
+date: "Tuesday, September 23, 2014"
+output: html_document
+---
+
+## Create the read data structure
+
+Context: 
+- Website with data file updated on a monthly basis
+- data file stucture remains the sale
+
+Objective:
+- download internet file and process them automatically
+
+Function to consider
+- f1 = globalread function
+- f2 = file string function
+- f3 = read csv
+
+Code chunks:
+
+```{r}
+setwd("C:/Users/cberthillon/997.FATCA/project1")
+
+#read function
+f1 <- function(id, directory, summarize = FALSE) {
+        f2 <- paste(getwd(),"/","001.data","/",sprintf("%06d", as.numeric(id)), ".csv", sep = "") #file sting function
+        f3 <- read.csv(f2)
+        if (summarize) {
+                print(summary(f3))
+        }
+        return(f3)
+}
+data <- f1(201407, TRUE)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

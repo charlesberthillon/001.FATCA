@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1415601382696.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BA864F00",
+    "lastKnownWriteTime" : 1886404911,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "f26",
+        "contentUrl" : "content?title=f26&file=b314889978c346ec8c95bf37c8255aba.htm",
+        "displayedObservations" : 85,
+        "displayedVariables" : 4,
+        "totalObservations" : 85,
+        "variables" : 3
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

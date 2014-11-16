@@ -1,0 +1,17 @@
+{
+    "contents" : "xvals <- 1:100\nyvals <- rnorm(100)\ndata <- data.frame(xvals,yvals)\nView(data)\nmanipulate({\n        #define plotting function \n        ggplot(data,aes(xvals,yvals)) +\n                geom_smooth(method=\"loess\",span=span.val) +\n                geom_point()},\n        #define variable that will be changed in plot\n        span.val=slider(0.1,1)\n)\nlibrary(manipulate)\nlibrary(ggplot2)\n",
+    "created" : 1415600949938.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "2006103424",
+    "id" : "4DCEC3D8",
+    "lastKnownWriteTime" : 3604578,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

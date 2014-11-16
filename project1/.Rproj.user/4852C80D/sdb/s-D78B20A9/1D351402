@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1415602626093.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1D351402",
+    "lastKnownWriteTime" : 926497071,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "cars",
+        "contentUrl" : "content?title=cars&file=adb9f844a9c24e03b4c00821aec910eb.htm",
+        "displayedObservations" : 50,
+        "displayedVariables" : 2,
+        "totalObservations" : 50,
+        "variables" : 2
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

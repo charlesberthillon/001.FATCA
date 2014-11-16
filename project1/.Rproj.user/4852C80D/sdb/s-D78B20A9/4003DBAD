@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1415385930720.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4003DBAD",
+    "lastKnownWriteTime" : 1030057065,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "f15",
+        "contentUrl" : "content?title=f15&file=401277a7d1194e8bb82cc928f2bc861a.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 4,
+        "totalObservations" : 387436,
+        "variables" : 4
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
